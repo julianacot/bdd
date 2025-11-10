@@ -5,6 +5,7 @@ CREATE TRIGGER Bonus_venda
 AFTER INSERT ON Produto_Venda
 FOR EACH ROW
 BEGIN
+
     DECLARE v_total_venda DECIMAL(10, 2);
     DECLARE v_id_funcionario INT;
     DECLARE v_bonus DECIMAL(10, 2);
