@@ -7,4 +7,5 @@ GRANT SELECT, DELETE, UPDATE ON supermais.* TO 'gerente'@'localhost';
 CREATE USER 'funcionario'@'localhost' IDENTIFIED BY 'func123';
 GRANT SELECT, INSERT ON supermais.vendas TO 'funcionario'@'localhost';
 
+
 FLUSH PRIVILEGES;
